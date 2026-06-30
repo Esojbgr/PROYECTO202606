@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+}
+
+.productos, .detalle {
+    display: grid;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.producto-card {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    transition: 0.3s;
+}
+
+.producto-card:hover {
+    background: #e8f0fe;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background: #0078ff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.login-box {
+    max-width: 350px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.error {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.btn-salir {
+    background: #d9534f;
+}
+
+.btn-salir:hover {
+    background: #c9302c;
+}
+
+
+body.login-page {
+    background: linear-gradient(135deg, #4a90e2, #50c9c3);
+}
+
+body.menu-page {
+    background: linear-gradient(135deg, #f7b733, #fc4a1a);
+}
+
+body.productos-page {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+body.detalle-page {
+    background: linear-gradient(135deg, #11998e, #38ef7d);
+}
+
+.producto-card img {
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.detalle img {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    display: block;
+    margin: auto;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+}

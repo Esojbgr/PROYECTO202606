@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+</head>
+<body class="login-page">
+
+    <h1>Iniciar Sesión</h1>
+
+    <div class="login-box">
+        <label>Correo electrónico:</label>
+        <input type="email" id="email" placeholder="usuario@correo.com">
+
+        <label>Contraseña:</label>
+        <input type="password" id="password" placeholder="Ingrese su contraseña">
+
+        <button class="btn" onclick="login()">Ingresar</button>
+
+        <p id="mensaje-error" class="error"></p>
+    </div>
+
+</body>
+</html>
